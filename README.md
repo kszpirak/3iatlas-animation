@@ -109,6 +109,26 @@ The code supports two physics modes (set via `MODE` constant in `main.py`):
 - Jet actively affects trajectory
 - More realistic but deviates from Loeb's specific claims
 
+## Physics Background
+
+### Gravitational Deflection Formula
+
+The deflection angle for an object passing a massive body is given by a well-established formula from classical mechanics:
+
+$$\theta = \frac{2GM}{b \cdot v^2}$$
+
+| Symbol | Meaning                                                 |
+| ------ | ------------------------------------------------------- |
+| θ      | Deflection angle (radians)                              |
+| G      | Gravitational constant (6.674 × 10⁻¹¹ m³/kg·s²)         |
+| M      | Mass of deflecting body (Sun = 1.989 × 10³⁰ kg)         |
+| b      | Impact parameter (closest approach to undeflected path) |
+| v      | Velocity at infinity                                    |
+
+This is the **Newtonian** version, valid for objects moving much slower than light. For comparison, Einstein's General Relativity predicts **twice** this deflection for light (θ = 4GM/bc²), famously confirmed during the 1919 solar eclipse.
+
+For 3I/ATLAS at ~68 km/s (0.02% of light speed), the Newtonian formula applies. The formula itself is textbook physics — Loeb's application of it is what this simulation tests.
+
 ## Technical Details
 
 ### Orbital Parameters (from Loeb)
