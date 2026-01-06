@@ -147,7 +147,7 @@ The code supports two physics modes (set via `MODE` constant in `main.py`):
 ## Acknowledgments
 
 - Orbital mechanics based on standard 2-body problem
-- Claims and parameters from [Avi Loeb's Medium post](https://avi-loeb.medium.com/six-anomalies-of-3i-atlas-f9a4dbb06db7) (December 17, 2025)
+- Claims and parameters from [Avi Loeb's Medium post](https://avi-loeb.medium.com/the-15-anomalies-of-3i-atlas-should-we-pay-attention-to-them-if-they-were-not-forecasted-77375f9974d5) (December 17, 2025)
 - Wobble period from cited preprint
 
 ## Disclaimer

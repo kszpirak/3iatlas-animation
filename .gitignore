@@ -23,3 +23,7 @@ Thumbs.db
 *.egg-info/
 dist/
 build/
+
+#old
+old/*
+old
