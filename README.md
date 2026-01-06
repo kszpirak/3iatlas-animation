@@ -149,7 +149,7 @@ The code supports two physics modes (set via `MODE` constant in `main.py`):
 - Orbital mechanics based on standard 2-body problem
 - Claims and parameters from [Avi Loeb's Medium post](https://avi-loeb.medium.com/3i-atlas-maintained-a-sunward-jet-after-its-gravitational-deflection-by-16-degrees-at-perihelion-e6810be9b3d8) (December 17, 2025)
 - Wobble period from cited preprint
-- Built with assistance from Claude (AI pair programmer)
+- Built with assistance from ChatGPT 5.2 and Claude (AI pair programmers)
 
 ## Disclaimer
 
