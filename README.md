@@ -115,10 +115,27 @@ The code supports two physics modes (set via `MODE` constant in `main.py`):
 
 - Perihelion distance: 202 million km (~1.35 AU)
 - Velocity at perihelion: 68 km/s
-- Gravitational deflection: ~16.4°
+- Gravitational deflection: ~16.4° (claimed)
 - Jet cone half-angle: 4° (8° full width)
 - Wobble period: 7.74 hours
 - Wobble amplitude: ±4°
+
+### ⚠️ Note on Deflection Angle
+
+[Loeb's article](https://avi-loeb.medium.com/3i-atlas-maintained-a-sunward-jet-after-its-gravitational-deflection-by-16-degrees-at-perihelion-e6810be9b3d8) states:
+
+> _"The direction of motion of 3I/ATLAS was shifted by the following angle (in radians) at perihelion: 2GM/(b·v²) = 0.286 = 16.4 degrees, where G is Newton's constant, M is the mass of the Sun, b=202 million kilometers is the perihelion distance and v=68 kilometers per second is the perihelion speed."_
+
+However, in classical scattering physics, `b` is the **impact parameter** (perpendicular distance from Sun to the undeflected asymptotic trajectory), not the perihelion distance.
+
+The simulation computes both:
+
+- **Perihelion distance (rp):** 202 million km (Loeb's value)
+- **Impact parameter (b):** ~239 million km (calculated)
+- **Calculated deflection:** ~19° (using correct impact parameter)
+- **Loeb's claimed deflection:** 16.4° (using rp as "b")
+
+This discrepancy is shown in the simulation output. It may indicate an error in Loeb's formula application, or a different definition of parameters. The simulation exposes this for users to evaluate.
 
 ### Physics
 

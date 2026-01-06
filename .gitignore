@@ -27,3 +27,6 @@ build/
 #old
 old/*
 old
+
+export_video.py
+export_video.sh
