@@ -86,7 +86,7 @@ What this simulation does:
 
 Note: "b" in scattering = impact parameter at infinity,
 NOT perihelion distance. We compute both and display.""",
-        "source": "https://avi-loeb.medium.com/six-anomalies-of-3i-atlas-f9a4dbb06db7",
+        "source": "https://avi-loeb.medium.com/3i-atlas-maintained-a-sunward-jet-after-its-gravitational-deflection-by-16-degrees-at-perihelion-e6810be9b3d8",
         "highlight": "deflection",
         # 15-year-old mode fields
         "teen_title": "How much the path bends",
@@ -124,7 +124,7 @@ What this simulation shows:
 The 8° width is critical: if the turn is 16.4° ≈ 2×8°,
 then Sun can be at edge of +A cone pre-perihelion and
 edge of -A cone post-perihelion.""",
-        "source": "https://avi-loeb.medium.com/six-anomalies-of-3i-atlas-f9a4dbb06db7",
+        "source": "https://avi-loeb.medium.com/3i-atlas-maintained-a-sunward-jet-after-its-gravitational-deflection-by-16-degrees-at-perihelion-e6810be9b3d8",
         "highlight": "jet_cone",
         # 15-year-old mode fields
         "teen_title": "Is the Sun inside the 'flashlight beam'?",
@@ -170,7 +170,7 @@ would be 3D precession around spin axis.""",
 spinning sprinkler. It swings ±4° every 7.74 hours.
 This wobble is NOT 'aiming at the Sun' on purpose.""",
         "teen_passfail": "Wobble is just random wiggle, not steering",
-        "source": "https://avi-loeb.medium.com/six-anomalies-of-3i-atlas-f9a4dbb06db7",
+        "source": "https://avi-loeb.medium.com/3i-atlas-maintained-a-sunward-jet-after-its-gravitational-deflection-by-16-degrees-at-perihelion-e6810be9b3d8",
         "highlight": "wobble",
     },
     4: {
@@ -203,7 +203,7 @@ What this simulation does:
 
 This is the key test: does the geometry work without
 any hidden steering rules?""",
-        "source": "https://avi-loeb.medium.com/six-anomalies-of-3i-atlas-f9a4dbb06db7",
+        "source": "https://avi-loeb.medium.com/3i-atlas-maintained-a-sunward-jet-after-its-gravitational-deflection-by-16-degrees-at-perihelion-e6810be9b3d8",
         "highlight": "sunward",
         # 15-year-old mode fields
         "teen_title": "Does the jet 'aim' at the Sun?",
@@ -242,7 +242,7 @@ What this simulation shows:
 
 The exaggeration is purely visual — all geometric
 tests use the true angular relationships.""",
-        "source": "https://avi-loeb.medium.com/six-anomalies-of-3i-atlas-f9a4dbb06db7",
+        "source": "https://avi-loeb.medium.com/3i-atlas-maintained-a-sunward-jet-after-its-gravitational-deflection-by-16-degrees-at-perihelion-e6810be9b3d8",
         "highlight": "perihelion",
         # 15-year-old mode fields
         "teen_title": "How long is the jet?",
@@ -279,7 +279,7 @@ Ecliptic alignment requires:
 • Measure angle between orbital plane and ecliptic
 
 ⚠️ THIS CLAIM IS NOT MODELED IN THIS 2D SIMULATION""",
-        "source": "https://avi-loeb.medium.com/six-anomalies-of-3i-atlas-f9a4dbb06db7",
+        "source": "https://avi-loeb.medium.com/3i-atlas-maintained-a-sunward-jet-after-its-gravitational-deflection-by-16-degrees-at-perihelion-e6810be9b3d8",
         "highlight": "ecliptic",
         # 15-year-old mode fields
         "teen_title": "Orbit tilt vs Earth's orbit",

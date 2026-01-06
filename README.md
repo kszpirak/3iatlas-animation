@@ -27,7 +27,7 @@ The simulation does NOT assume Loeb is correct — it tests whether his geometri
 
 ## Loeb's Six Claims (Tested)
 
-Based on Avi Loeb's December 2025 Medium post ["Six Anomalies of 3I/ATLAS"](https://avi-loeb.medium.com/six-anomalies-of-3i-atlas-f9a4dbb06db7):
+Based on Avi Loeb's December 2025 Medium post ["Six Anomalies of 3I/ATLAS"](https://avi-loeb.medium.com/3i-atlas-maintained-a-sunward-jet-after-its-gravitational-deflection-by-16-degrees-at-perihelion-e6810be9b3d8):
 
 | #   | Claim                         | Simulation Status            |
 | --- | ----------------------------- | ---------------------------- |
@@ -147,7 +147,7 @@ The code supports two physics modes (set via `MODE` constant in `main.py`):
 ## Acknowledgments
 
 - Orbital mechanics based on standard 2-body problem
-- Claims and parameters from [Avi Loeb's Medium post](https://avi-loeb.medium.com/the-15-anomalies-of-3i-atlas-should-we-pay-attention-to-them-if-they-were-not-forecasted-77375f9974d5) (December 17, 2025)
+- Claims and parameters from [Avi Loeb's Medium post]https://avi-loeb.medium.com/3i-atlas-maintained-a-sunward-jet-after-its-gravitational-deflection-by-16-degrees-at-perihelion-e6810be9b3d8) (December 17, 2025)
 - Wobble period from cited preprint
 
 ## Disclaimer
