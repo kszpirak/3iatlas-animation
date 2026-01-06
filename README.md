@@ -25,6 +25,8 @@ This is an educational visualization tool that:
 
 The simulation does not presuppose the correctness of any interpretation; it provides a framework for testing geometric claims against standard orbital mechanics.
 
+Sun-in-cone test: The test is purely angular (dot-product based). Jet length and visual exaggeration do not affect containment results.
+
 ## Loeb's Claims (Tested)
 
 Based on Avi Loeb's December 17, 2025 Medium post ["3I/ATLAS Maintained a Sunward Jet After Its Gravitational Deflection by 16 Degrees at Perihelion"](https://avi-loeb.medium.com/3i-atlas-maintained-a-sunward-jet-after-its-gravitational-deflection-by-16-degrees-at-perihelion-e6810be9b3d8):
@@ -96,6 +98,8 @@ python main.py
 ## Simulation Modes
 
 The code supports two physics modes (set via `MODE` constant in `main.py`):
+
+Coordinate frame: All dynamics are computed in a heliocentric inertial frame, with the simulation plane corresponding to the object’s orbital plane. No non-inertial or rotating reference frames are used.
 
 ### LOEB_GEOMETRY (default)
 
