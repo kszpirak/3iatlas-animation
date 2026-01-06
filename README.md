@@ -192,6 +192,8 @@ This discrepancy is shown in the simulation output. It may indicate an error in 
 
 This is an independent educational visualization. It does not endorse or refute Loeb's claims — it provides a tool for visualizing and testing the geometry he describes against standard orbital mechanics.
 
+This project is an exploratory visualization of orbital geometry inspired by public discussions of 3I/ATLAS. It is not intended as a definitive physical model.
+
 ## License
 
 MIT License - See LICENSE file for details.
