@@ -25,9 +25,9 @@ This is an educational visualization tool that:
 
 The simulation does NOT assume Loeb is correct — it tests whether his geometric claims hold up against real orbital mechanics.
 
-## Loeb's Six Claims (Tested)
+## Loeb's Claims (Tested)
 
-Based on Avi Loeb's December 2025 Medium post ["Six Anomalies of 3I/ATLAS"](https://avi-loeb.medium.com/3i-atlas-maintained-a-sunward-jet-after-its-gravitational-deflection-by-16-degrees-at-perihelion-e6810be9b3d8):
+Based on Avi Loeb's December 17, 2025 Medium post ["3I/ATLAS Maintained a Sunward Jet After Its Gravitational Deflection by 16 Degrees at Perihelion"](https://avi-loeb.medium.com/3i-atlas-maintained-a-sunward-jet-after-its-gravitational-deflection-by-16-degrees-at-perihelion-e6810be9b3d8):
 
 | #   | Claim                         | Simulation Status            |
 | --- | ----------------------------- | ---------------------------- |
@@ -147,7 +147,7 @@ The code supports two physics modes (set via `MODE` constant in `main.py`):
 ## Acknowledgments
 
 - Orbital mechanics based on standard 2-body problem
-- Claims and parameters from [Avi Loeb's Medium post]https://avi-loeb.medium.com/3i-atlas-maintained-a-sunward-jet-after-its-gravitational-deflection-by-16-degrees-at-perihelion-e6810be9b3d8) (December 17, 2025)
+- Claims and parameters from [Avi Loeb's Medium post](https://avi-loeb.medium.com/3i-atlas-maintained-a-sunward-jet-after-its-gravitational-deflection-by-16-degrees-at-perihelion-e6810be9b3d8) (December 17, 2025)
 - Wobble period from cited preprint
 
 ## Disclaimer
