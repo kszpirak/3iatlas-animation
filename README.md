@@ -23,7 +23,7 @@ This is an educational visualization tool that:
 | **Jet cones (+A/-A)**              | Loeb's _assumed_ fixed-axis geometry  |
 | **Sun-in-cone test**               | Verification of Loeb's assumption     |
 
-The simulation does NOT assume Loeb is correct — it tests whether his geometric claims hold up against real orbital mechanics.
+The simulation does not presuppose the correctness of any interpretation; it provides a framework for testing geometric claims against standard orbital mechanics.
 
 ## Loeb's Claims (Tested)
 
@@ -155,13 +155,19 @@ The simulation computes both:
 - **Calculated deflection:** ~19° (using correct impact parameter)
 - **Loeb's claimed deflection:** 16.4° (using rp as "b")
 
-This discrepancy is shown in the simulation output. It may indicate an error in Loeb's formula application, or a different definition of parameters. The simulation exposes this for users to evaluate.
+This discrepancy is shown in the simulation output. This may reflect a difference in parameter interpretation, or an approximation not fully explained in the article. The simulation exposes this for users to evaluate.
 
 ### Physics
 
 - 2-body gravitational dynamics via `scipy.integrate.solve_ivp`
 - Hyperbolic trajectory (eccentricity > 1)
 - Standard gravitational parameter μ☉ = 1.327×10²⁰ m³/s²
+
+## Limitations
+
+- 2D orbital plane only (no 3D inclination or spin-axis modeling)
+- No gas dynamics, plasma effects, or dust scattering
+- Jet geometry is schematic, not derived from physical outgassing models
 
 ### Visualization
 
@@ -180,6 +186,16 @@ This discrepancy is shown in the simulation output. It may indicate an error in 
 ├── 3i-atlas.png      # Custom icon (optional)
 └── README.md         # This file
 ```
+
+## Intended Audience
+
+This project is intended for:
+
+- Students and enthusiasts of orbital mechanics
+- Readers seeking a visual interpretation of published claims
+- Developers interested in scientific visualization
+
+It is not intended as a peer-reviewed scientific publication.
 
 ## Acknowledgments
 
